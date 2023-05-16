@@ -5,11 +5,11 @@ function App() {
   return (
     <div>
     <header>
-      <img src="https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/Kalvium-Logo.png" alt=""></img>
-      <h3>Kalvium Education</h3>
+      <img src="https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/Kalvium-Logo.png" alt="Kalvium Icon"></img>
+      <h3 align="center">Kalvium Education</h3>
     </header>
     <div>
-      <p>It is a long established fact that a reader will be distracted by the readable content of a 
+      <p data-testid = "paragraph-description">It is a long established fact that a reader will be distracted by the readable content of a 
         page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less 
         normal distribution of letters, as opposed to using 'Content here, content here', making it look 
         like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum 
@@ -21,7 +21,7 @@ function App() {
 
     {/* Uncomment the below line - once you edit Image.js component*/}
     
-    {/* <Image data={Data}></Image> */}
+    <Image data={Data}></Image>
   </div>
   );
 }

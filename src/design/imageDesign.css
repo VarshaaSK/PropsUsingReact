@@ -1,0 +1,13 @@
+
+.lakeImage{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.lakeImage img{
+    width: 500px;
+    height: 500px;
+}
